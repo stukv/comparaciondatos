@@ -62,6 +62,7 @@
         function setup() {
         var w = document.getElementById('vis').offsetWidth;
         var h = w/2;
+        var radius = 7
         createCanvas(w,h).parent("vis");
         background(255);
             textAlign(CENTER);
@@ -70,8 +71,9 @@
             fill(163, 163, 255);
             noStroke();
             plata.institucion.forEach(function(plata,i){
-                ellipse((width/9)*(1+i), height/2, plata.tituladoscont*3, plata.tituladoscont*3);
+                ellipse((width/9)*(1+i), height/2, plata.tituladoscont*radius, plata.tituladoscont*radius);
                 text(plata.nombre, (width/9)*(1+i), (height/2)+120, 100, 100);
+                
                 
            
             });
