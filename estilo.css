@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:700|Lexend+Exa&display=swap');
+
+
+body{
+	font-family: 'Lexend Exa', monospace;
+	font-weight: 300;
+    color: black;
+    background-color: #ffd88f;
+}
+
+h1{
+	font-weight: 300;
+    font-size: 25px;
+}
+
+h2{
+    font-family: 'Cabin', sans-serif;
+	font-weight: 500;
+   letter-spacing: 1px;
+    text-transform: uppercase;
+    
+}
+
+h3,h4,h5,h6,strong{
+	font-family: 'Lexend Exa', monospace;
+	font-weight: 500;	
+}
+
+.display-1{
+	font-weight: 700;
+	word-break: break-all;	
+	color: white;
+}
+
+.display-1:nth-child(1){
+   	background: linear-gradient(rgba(249,162,162,.6),rgba(163,163,255,.6)), url(https://images.pexels.com/photos/1037993/pexels-photo-1037993.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat;
+  	background-size:cover;
+  	background-position: center center;
+  	-webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.display-1:nth-child(2){
+   	background: linear-gradient(rgba(163,163,255,.7),rgba(163,239,255,.7)), url(https://images.pexels.com/photos/343469/pexels-photo-343469.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat;
+  	background-size:cover;
+  	background-position: center center;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;	
+}
+
+.display-1:nth-child(3){
+   	background: linear-gradient(rgba(163,239,255,.8),rgba(114,255,175,.4)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPpTKkorbLmDss_HYf64bMyS4snTUjQokLG9tZkXss4-C_uTlj) no-repeat;
+  	background-size:cover;
+  	background-position: center center;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;	
+}
+
+.display-1:nth-child(4){
+   	background: linear-gradient(rgba(114,255,175,.5),rgba(255,255,255,.5)), url(https://images.pexels.com/photos/313690/pexels-photo-313690.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat;
+  	background-size:cover;
+  	background-position: center center;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;	
+}
+
+h3#tercera{
+    font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+}
+
+a#barra{
+	font-weight: 400;
+    font-style: italic;
+    text-transform: lowercase; 
+}
+
+#barracolor{
+    background-color:#f9a2a2; 
+}
+
+#barracolor2{
+    background-color: #a3a3ff; 
+}
+
+#barracolor3{
+    background-color:#a3efff; 
+}
+
+#barracolor4{
+    background-color:#72ffaf; 
+}
+
+a#especial{
+	font-style: italic;
+	font-weight: 400;
+	color:black;
+	text-transform: lowercase;
+}
+
+a#especial2{
+	font-style: italic;
+	font-weight: 400;
+	color:#f9a2a2;
+	text-transform: lowercase;
+}
+
+a#especial3{
+	font-style: italic;
+	font-weight: 400;
+	color:#a3a3ff;
+	text-transform: lowercase;
+}
+
+a#especial4{
+	font-style: italic;
+	font-weight: 400;
+	color:#a3efff;
+	text-transform: lowercase;
+}
+
+a#especial5{
+	font-style: italic;
+	font-weight: 400;
+	color:#72ffaf;
+	text-transform: lowercase;
+}
+
+a#especial:before{
+	content:"+ ";
+}
+
+button.navbar-toggler{
+	border:none;
+}
+
+#navbarCollapse{
+  text-transform: lowercase;  
+}
+
+#lateral2{
+    font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+    font-style: italic;
+}
+
+section {
+  color-background: black;
+}
